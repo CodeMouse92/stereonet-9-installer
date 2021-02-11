@@ -12,8 +12,6 @@ You must have Wine installed. For Ubuntu 18.04 and later, you can just install d
 sudo apt install wine64 wine32
 ```
 
-Follow the on-screen prompts to finish setup.
-
 If you want a newer version of Wine, or are on a system that doesn't have Wine available by default, follow the instructions here: https://wiki.winehq.org/Download
 
 ## Step 2: Install Stereonet
@@ -26,6 +24,22 @@ chmod +x install-stereonet.sh
 ./install-stereonet.sh
 ```
 
-## Step 3: Enjoy!
+## Step 3: Run!
+
+Run...
+
+```bash
+stereonet
+```
+
+If you've just barely set up Wine, follow the on-screen prompts to finish setup.
+
+Stereonet should start.
+
+## Step 4: Use like normal
+
+You can now launch Stereonet like any other application, from your menu or application browser. Alternatively, you can always start it from command-line with `stereonet`.
+
+Please report problems with the installer in Issues here.
 
 This one is for my dear sister Maddie!
