@@ -10,7 +10,6 @@ You must have Wine installed. For Ubuntu 18.04 and later, you can just install d
 
 ```bash
 sudo apt install wine64 wine32
-winecfg
 ```
 
 Follow the on-screen prompts to finish setup.
