@@ -16,11 +16,12 @@ If you want a newer version of Wine, or are on a system that doesn't have Wine a
 
 ## Step 2: Install Stereonet
 
-Run the script ./install-stereonet.sh
+Download and run the install script from this repository.
 
 ```bash
 wget https://raw.githubusercontent.com/CodeMouse92/stereonet-9-installer/main/install-stereonet.sh
 chmod +x install-stereonet.sh
+
 ./install-stereonet.sh
 ```
 
