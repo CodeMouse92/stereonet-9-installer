@@ -19,3 +19,5 @@ chmod +x install-stereonet.sh
 ```
 
 ## Step 3: Enjoy!
+
+This one is for my dear sister Maddie!
