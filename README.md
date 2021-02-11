@@ -15,7 +15,7 @@ Run the script ./install-stereonet.sh
 ```bash
 wget https://github.com/CodeMouse92/stereonet-9-installer/blob/main/install-stereonet.sh
 chmod +x install-stereonet.sh
-./install-stereo.net.sh
+./install-stereonet.sh
 ```
 
 ## Step 3: Enjoy!
