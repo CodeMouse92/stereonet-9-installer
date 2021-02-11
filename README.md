@@ -6,22 +6,16 @@ The official Linux variant does not run on some newer Linux systems, but the Win
 
 ## Step 1: Install Wine
 
-Follow the instructions here to install Wine: https://wiki.winehq.org/Download
-
-### For Ubuntu 18.04...
-
-If you're installing Wine on Ubuntu 18.04, and it complains it can't install, you may need to run the following:
+You must have Wine installed. For Ubuntu 18.04 and later, you can just install directly from the main repositories:
 
 ```bash
-cd ~/Desktop
-wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/amd64/libfaudio0_19.07-0~bionic_amd64.deb
-wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/i386/libfaudio0_19.07-0~bionic_i386.deb
-sudo dpkg -i libfaudio0_19.07-0~bionic_amd64.deb libfaudio0_19.07-0~bionic_i386.deb
-rm libfaudio0_19.07-0~bionic_amd64.deb libfaudio0_19.07-0~bionic_i386.deb
-sudo apt --fix-broken install
+sudo apt install wine64 wine32
+winecfg
 ```
 
-Source: https://askubuntu.com/questions/1145473/how-do-i-install-libfaudio0
+Follow the on-screen prompts to finish setup.
+
+If you want a newer version of Wine, or are on a system that doesn't have Wine available by default, follow the instructions here: https://wiki.winehq.org/Download
 
 ## Step 2: Install Stereonet
 
